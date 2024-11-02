@@ -1,0 +1,68 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://cutewallpaper.org/23/wallpaper-hd-nature-night/317799579.jpg"); /* URL da imagem de fundo */
+  background-color: #000000; /* Cor de fundo preta */
+  background-size: cover; /* Cobrir completamente o fundo */
+  background-position: center top; /* Posição do fundo */
+  background-repeat: no-repeat; /* Não repetir o fundo */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+  text-align: center;
+  padding: 50px;
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+.flex-container {
+    flex-direction: row | row-reverse | column | column-reverse;
+    flex-wrap: nowrap | wrap | wrap-reverse;
+  }
+
+/* Estilo para o título da página */
+.page-title {
+  color: #ffffff; /* Cor do texto branca */
+  margin: 5% 0; /* Margem inferior */
+  margin-bottom: 10%;
+}
+
+/* Estilo para todas as imagens diretamente dentro do corpo */
+body > img {
+  margin-top: 5%;
+  margin: 5% 0; /* Margem ao redor da imagem */
+  
+}
+
+/* Estilo para todas as imagens */
+img {
+  max-height: 350px; /* Altura máxima para todas as imagens */
+}
+
+/* Estilo para elementos com a classe "titulo-branco" */
+.titulo-branco {
+  color: white; /* Cor do texto branca */
+}
+
+/* Estilo para o contêiner dos filmes */
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+/* Estilo para a imagem de cada filme */
+.filme-container img {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin: 5% 0;
+/* margin-bottom: 5px; /* Adiciona espaçamento abaixo da imagem */
+}
+
+/* Estilo para o texto abaixo de cada imagem */
+.filme-container p {
+  color: white;
+}
